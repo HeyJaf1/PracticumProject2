@@ -19,7 +19,6 @@ public class Order {
     private final By mobil = By.xpath(".//input[contains(@placeholder, 'Телефон: на него позвонит курьер')]");
     private final By next = By.xpath(".//div[@class='Order_NextButton__1_rCA']/button[text()='Далее']");
 
-
     public Order(WebDriver driver) { this.driver = driver; }
 
     //кликнуть Заказать
