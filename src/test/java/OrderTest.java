@@ -42,10 +42,8 @@ public class OrderTest {
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-
 //        WebDriverManager.firefoxdriver().setup();
 //        driver = new FirefoxDriver();
-
         MainPage webScooterMainPage = new MainPage(driver);
         webScooterMainPage.openMainPage();
 
