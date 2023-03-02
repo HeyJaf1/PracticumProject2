@@ -37,7 +37,5 @@ public class OrderRent {
         driver.findElement(commentField).sendKeys(comment);
         driver.findElement(finalOrderButton).click();
         driver.findElement(yesOrderButton).click();
-
     }
-
 }
